@@ -7,12 +7,12 @@ services:
       - "./_build/out/linux:/app"
       - "./_build/resources:/config"
     environment:
-      LOG_LEVEL: "debug"
+      LOG_LEVEL: "debug"asfasdf
       RABBIT_DSN: "rabbit:5672"
       STORAGE_DSN: "redis://redis:6379/?key=kandalf"
       KAFKA_BROKERS: "kafka:29092"
     depends_on:
-      - kafka
+      - kafkaasdfdsaf
       - redis
       - rabbit
 
